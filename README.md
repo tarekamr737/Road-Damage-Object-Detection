@@ -194,7 +194,7 @@ For Streamlit Community Cloud, deploy from the Cloud workspace and enter the
 repository manually if the local toolbar cannot detect it:
 
 ```text
-Repository: tarekamr737/2nd-project
+Repository: tarekamr737/Road-Damage-Object-Detection
 Branch: main
 Main file path: app/app.py
 Python version: 3.11

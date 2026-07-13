@@ -1,0 +1,7 @@
+minimum_validation_recall: 0.50
+minimum_fps: 10.0
+maximum_p95_latency_ms: 100.0
+maximum_model_size_mb: 100.0
+deploy_confidence_threshold: 0.25
+match_iou_threshold: 0.50
+image_size: 640

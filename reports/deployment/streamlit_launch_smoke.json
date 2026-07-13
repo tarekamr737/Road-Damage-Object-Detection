@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-07-13T03:32:00.9113993+03:00",
+  "pid": "10536",
+  "url": "http://localhost:8501",
+  "health_url": "http://127.0.0.1:8501/_stcore/health",
+  "status_code": 200,
+  "health_response": "ok",
+  "process_running": true,
+  "desktop_screenshot": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\reports\\deployment\\app_home_desktop.png",
+  "desktop_screenshot_exists": true,
+  "desktop_screenshot_bytes": 105022,
+  "mobile_screenshot": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\reports\\deployment\\app_home_mobile.png",
+  "mobile_screenshot_exists": true,
+  "mobile_screenshot_bytes": 56264,
+  "stdout_log": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\reports\\deployment\\streamlit.out.log",
+  "stderr_log": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\reports\\deployment\\streamlit.err.log"
+}

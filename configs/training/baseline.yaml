@@ -1,0 +1,55 @@
+seed: 42
+data_yaml: data/processed/road-damage-detection-bbox-v1/data_detection.yaml
+runs_root: runs
+reports_root: reports
+exports_root: models/exports
+device: auto
+require_gpu: false
+
+baseline_name: baseline_seed42
+final_name: final_tuned_seed42
+tune_name: tune_equal_budget
+
+model_specs:
+  YOLOv8s:
+    family: YOLOv8
+    weights: yolov8s.pt
+  YOLO11s:
+    family: YOLO11
+    weights: yolo11s.pt
+  YOLO26s:
+    family: YOLO26
+    weights: yolo26s.pt
+
+train_args:
+  imgsz: 640
+  epochs: 100
+  batch: 16
+  patience: 20
+  workers: 2
+  deterministic: true
+  amp: true
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  cos_lr: true
+  close_mosaic: 10
+  hsv_h: 0.015
+  hsv_s: 0.50
+  hsv_v: 0.40
+  degrees: 3.0
+  translate: 0.10
+  scale: 0.40
+  shear: 1.0
+  perspective: 0.0005
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 0.8
+  mixup: 0.05
+  cache: false
+  plots: true
+  save: true
+  save_period: 10
+  verbose: true

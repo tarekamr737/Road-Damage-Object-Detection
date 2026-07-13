@@ -1,0 +1,10 @@
+{
+  "images": 681,
+  "confidence_threshold": 0.25,
+  "match_iou_threshold": 0.5,
+  "images_with_false_positives": 336,
+  "images_with_false_negatives": 393,
+  "images_with_matches": 530,
+  "total_false_positives": 716,
+  "total_false_negatives": 1047
+}

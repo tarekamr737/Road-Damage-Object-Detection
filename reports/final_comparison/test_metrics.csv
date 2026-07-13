@@ -1,0 +1,2 @@
+"model","checkpoint_stage","precision","recall","f1","map50","map50_95","parameters","model_size_mb","val_preprocess_ms","val_inference_ms","val_postprocess_ms","checkpoint"
+"YOLOv8s","baseline","0.6211078618428041","0.535116869117234","0.5749146952377733","0.5830592840841512","0.3468239614039282","11128293","21.47202491760254","0.7320883995070424","8.174294566832382","0.6481041116694676","D:\INSTANT TRAINING\2nd Sprint\2nd project\runs\YOLOv8s\baseline_seed42\weights\best.pt"

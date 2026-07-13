@@ -1,0 +1,1218 @@
+{
+  "created_at_utc": "2026-07-12T19:01:16.024373+00:00",
+  "workspace": "tarek-amr-7rdkn",
+  "project": "roadddd-9ducw",
+  "version": "2",
+  "project_metadata": {
+    "workspace": {
+      "name": "New Workspace",
+      "url": "tarek-amr-7rdkn",
+      "members": 1
+    },
+    "project": {
+      "id": "tarek-amr-7rdkn/roadddd-9ducw",
+      "type": "object-detection",
+      "name": "roadddd",
+      "created": 1783810406.87,
+      "updated": 1783812782.773,
+      "images": 6694,
+      "unannotated": 6694,
+      "annotation": "roadddd",
+      "versions": 2,
+      "public": true,
+      "multilabel": false,
+      "license": "CC BY 4.0",
+      "splits": {
+        "valid": 1140,
+        "train": 4875,
+        "test": 679
+      },
+      "colors": {
+        "transverse": "#C7FC00",
+        "longitudinal": "#8622FF",
+        "alligator": "#FE0056",
+        "pothole": "#00FFCE",
+        "crack": "#FF8000",
+        "edge": "#00B7EB",
+        "block": "#FFFF00"
+      },
+      "classes": {
+        "edge": 22,
+        "longitudinal": 2853,
+        "block": 438,
+        "crack": 2112,
+        "transverse": 676,
+        "alligator": 5864,
+        "pothole": 8435
+      },
+      "icon": {
+        "original": "https://source.roboflow.com/4re4WFADdFZfHrhJnkQUsBgXqIC3/vfkQ6zxCvZWZH729hHOp/original.jpg",
+        "thumb": "https://source.roboflow.com/4re4WFADdFZfHrhJnkQUsBgXqIC3/vfkQ6zxCvZWZH729hHOp/thumb.jpg",
+        "annotation": null
+      },
+      "preprocessing": {
+        "resize": {
+          "format": "Stretch to",
+          "width": "640",
+          "height": "640"
+        }
+      },
+      "augmentation": {}
+    },
+    "versions": [
+      {
+        "id": "tarek-amr-7rdkn/roadddd-9ducw/2",
+        "name": "yolo11 data-resized",
+        "created": 1783812782.771,
+        "images": 6694,
+        "splits": {
+          "valid": 1140,
+          "test": 679,
+          "train": 4875
+        },
+        "preprocessing": {
+          "resize": {
+            "format": "Stretch to",
+            "width": "640",
+            "height": "640"
+          }
+        },
+        "augmentation": {},
+        "exports": [
+          "coco",
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "tarek-amr-7rdkn/roadddd-9ducw/1",
+        "name": "yolo11 data",
+        "created": 1783812463.103,
+        "images": 6694,
+        "splits": {
+          "valid": 1140,
+          "test": 679,
+          "train": 4875
+        },
+        "preprocessing": {},
+        "augmentation": {},
+        "exports": []
+      }
+    ]
+  },
+  "models_list": [
+    {
+      "url": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo26s-t2",
+      "version": "2",
+      "train": {
+        "status": "finished"
+      },
+      "taskType": "object-detection",
+      "modelType": "yolo26s",
+      "name": "roadddd-9ducw-2-yolo26s-t2",
+      "created": "2026-07-12T18:39:35.463Z",
+      "metrics": {
+        "map50": 52.31,
+        "precision": 59.3,
+        "recall": 55.2,
+        "f1": 56.3
+      }
+    },
+    {
+      "url": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo11n-t1",
+      "version": "2",
+      "train": {
+        "status": "finished"
+      },
+      "taskType": "object-detection",
+      "modelType": "yolo11n",
+      "name": "roadddd-9ducw-2-yolo11n-t1",
+      "created": "2026-07-12T01:59:24.141Z",
+      "metrics": {
+        "map50": 59.42,
+        "precision": 63.7,
+        "recall": 60.8,
+        "f1": 61.4
+      }
+    },
+    {
+      "url": "roadddd-9ducw/2",
+      "version": "2",
+      "train": {},
+      "taskType": "object-detection",
+      "name": "roadddd 2",
+      "metrics": null
+    }
+  ],
+  "model_evals": {
+    "evals": [
+      {
+        "evalId": "aDdCvi180NN0GvogPWf0",
+        "status": "done",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "f42ff497f8afe4ea802f",
+        "modelUrl": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo26s-t2",
+        "createdAt": "2026-07-12T18:40:15.034Z"
+      },
+      {
+        "evalId": "qREB9h8dc5K0HvfOLzMW",
+        "status": "done",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "fe491a8e7a9f46c41b8e",
+        "modelUrl": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo11n-t1",
+        "createdAt": "2026-07-12T02:00:04.994Z"
+      }
+    ]
+  },
+  "details": {
+    "YOLO11n": {
+      "model_spec": {
+        "variant": "n",
+        "model_url": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo11n-t1",
+        "model_slug": "roadddd-9ducw-2-yolo11n-t1",
+        "eval_id": "qREB9h8dc5K0HvfOLzMW"
+      },
+      "model_metadata": {
+        "url": "roadddd-9ducw-2-yolo11n-t1",
+        "train": {
+          "status": "finished"
+        },
+        "taskType": "object-detection",
+        "modelType": "yolo11n",
+        "name": "roadddd-9ducw-2-yolo11n-t1",
+        "created": "2026-07-12T01:59:24.141Z",
+        "metrics": {
+          "map50": 59.42,
+          "precision": 63.7,
+          "recall": 60.8,
+          "f1": 61.4
+        }
+      },
+      "eval": {
+        "evalId": "qREB9h8dc5K0HvfOLzMW",
+        "status": "done",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "fe491a8e7a9f46c41b8e",
+        "modelUrl": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo11n-t1",
+        "createdAt": "2026-07-12T02:00:04.994Z",
+        "summary": {
+          "mAP": 0.5942403636206843,
+          "mIoU": null,
+          "precision": 0.637,
+          "recall": 0.608
+        }
+      },
+      "map_results": {
+        "evalId": "qREB9h8dc5K0HvfOLzMW",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "fe491a8e7a9f46c41b8e",
+        "taskType": "object-detection-like",
+        "splits": {
+          "valid": {
+            "map50": 0.420338134240887,
+            "map50_95": 0.24429269006065163,
+            "map75": 0.22986272616310813,
+            "byObjectSize": {
+              "small": {
+                "map50": 0.16701436230633668,
+                "map50_95": 0.045374405513364344,
+                "map75": 0.016227856606063473
+              },
+              "medium": {
+                "map50": 0.3286240765387396,
+                "map50_95": 0.15005106029196075,
+                "map75": 0.12055519604115972
+              },
+              "large": {
+                "map50": 0.46655131689281176,
+                "map50_95": 0.279426248957059,
+                "map75": 0.26920892258968654
+              }
+            },
+            "perClass": {
+              "alligator": {
+                "map50": 0.3574427303881786,
+                "map50_95": 0.1772176304309996,
+                "map75": 0.1416818996219483,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.004243281471004243,
+                    "map50_95": 0.0008486562942008486,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.20919986502766733,
+                    "map50_95": 0.0546431531209359,
+                    "map75": 0.01595392518668063
+                  },
+                  "large": {
+                    "map50": 0.41029876550829886,
+                    "map50_95": 0.2210218428444297,
+                    "map75": 0.18813672660199196
+                  }
+                }
+              },
+              "block": {
+                "map50": 0.8579823732005819,
+                "map50_95": 0.6752582915015132,
+                "map75": 0.7402348315679383,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": {
+                    "map50": 0.8579823732005819,
+                    "map50_95": 0.6752582915015132,
+                    "map75": 0.7402348315679383
+                  }
+                }
+              },
+              "crack": {
+                "map50": 0.26993147700173914,
+                "map50_95": 0.12923945931572872,
+                "map75": 0.1051462803497816,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0,
+                    "map50_95": 0,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.004634987170533958,
+                    "map50_95": 0.002328517300725302,
+                    "map75": 0.0020033582305598982
+                  },
+                  "large": {
+                    "map50": 0.34256572771442884,
+                    "map50_95": 0.16137245602885408,
+                    "map75": 0.12952348664617466
+                  }
+                }
+              },
+              "edge": {
+                "map50": 0,
+                "map50_95": 0,
+                "map75": 0,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": {
+                    "map50": 0,
+                    "map50_95": 0,
+                    "map75": 0
+                  }
+                }
+              },
+              "longitudinal": {
+                "map50": 0.2715045256096611,
+                "map50_95": 0.09764258529229766,
+                "map75": 0.04874740821825367,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.13447210226249107,
+                    "map50_95": 0.03561941830496579,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.2802501699073267,
+                    "map50_95": 0.09828139399576657,
+                    "map75": 0.052086138269223974
+                  },
+                  "large": {
+                    "map50": 0.30961545021490117,
+                    "map50_95": 0.12165460060905159,
+                    "map75": 0.06718077055440229
+                  }
+                }
+              },
+              "pothole": {
+                "map50": 0.6070160665728273,
+                "map50_95": 0.30730513754506783,
+                "map75": 0.2690671341459509,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.4389306852239307,
+                    "map50_95": 0.16466137871022932,
+                    "map75": 0.08113928303031735
+                  },
+                  "medium": {
+                    "map50": 0.4932485719123152,
+                    "map50_95": 0.218031470686964,
+                    "map75": 0.15301338008662677
+                  },
+                  "large": {
+                    "map50": 0.7766496028044167,
+                    "map50_95": 0.4580614050483891,
+                    "map75": 0.47059794067570687
+                  }
+                }
+              },
+              "transverse": {
+                "map50": 0.5784897669132211,
+                "map50_95": 0.3233857263389543,
+                "map75": 0.3041615292378839,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.2574257425742574,
+                    "map50_95": 0.025742574257425734,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.6557867886758548,
+                    "map50_95": 0.3769707663554119,
+                    "map75": 0.3797191784327073
+                  },
+                  "large": {
+                    "map50": 0.5687472988070549,
+                    "map50_95": 0.318615146667175,
+                    "map75": 0.28878870208159163
+                  }
+                }
+              }
+            }
+          },
+          "test": {
+            "map50": 0.5942403636206843,
+            "map50_95": 0.3682958083886161,
+            "map75": 0.3657583649976355,
+            "byObjectSize": {
+              "small": {
+                "map50": 0.400813179262513,
+                "map50_95": 0.0823914861270441,
+                "map75": 0.02466772976843824
+              },
+              "medium": {
+                "map50": 0.5276294093624995,
+                "map50_95": 0.2775440775934878,
+                "map75": 0.29316181723577645
+              },
+              "large": {
+                "map50": 0.6193754037267674,
+                "map50_95": 0.4029216154136684,
+                "map75": 0.4052138149563657
+              }
+            },
+            "perClass": {
+              "alligator": {
+                "map50": 0.3288531808612013,
+                "map50_95": 0.14294677550334117,
+                "map75": 0.10454694258120852,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.007996953541507998,
+                    "map50_95": 0.0015697723618515699,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.23275729997152508,
+                    "map50_95": 0.05674770635945727,
+                    "map75": 0.0057845458458889365
+                  },
+                  "large": {
+                    "map50": 0.37563035227833214,
+                    "map50_95": 0.17902892922886207,
+                    "map75": 0.1464819890259042
+                  }
+                }
+              },
+              "block": {
+                "map50": 0.8470011937925868,
+                "map50_95": 0.6617223476013945,
+                "map75": 0.7047173805010701,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": {
+                    "map50": 0.8470011937925868,
+                    "map50_95": 0.6617223476013945,
+                    "map75": 0.7047173805010701
+                  }
+                }
+              },
+              "crack": {
+                "map50": 0.7658535591703247,
+                "map50_95": 0.5903710735272806,
+                "map75": 0.6675945384600168,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": {
+                    "map50": 0.8193069306930693,
+                    "map50_95": 0.5839290429042904,
+                    "map75": 0.8193069306930693
+                  },
+                  "large": {
+                    "map50": 0.7608207765466405,
+                    "map50_95": 0.5973129608278367,
+                    "map75": 0.6595256386100335
+                  }
+                }
+              },
+              "edge": {
+                "map50": null,
+                "map50_95": null,
+                "map75": null,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": null
+                }
+              },
+              "longitudinal": {
+                "map50": 0.257894770652957,
+                "map50_95": 0.08281374165204859,
+                "map75": 0.02822645341208084,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.08748313254970816,
+                    "map50_95": 0.03352019088349073,
+                    "map75": 0.0008840169731258839
+                  },
+                  "medium": {
+                    "map50": 0.25924066096337595,
+                    "map50_95": 0.08789448033187894,
+                    "map75": 0.04472578822007466
+                  },
+                  "large": {
+                    "map50": 0.3258862990949151,
+                    "map50_95": 0.1017866139154412,
+                    "map75": 0.027508693516072213
+                  }
+                }
+              },
+              "pothole": {
+                "map50": 0.6864889420102933,
+                "map50_95": 0.38082939851327324,
+                "map75": 0.35844349635039935,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.5077726309588357,
+                    "map50_95": 0.19447598126283408,
+                    "map75": 0.09778690210062708
+                  },
+                  "medium": {
+                    "map50": 0.5669921737487571,
+                    "map50_95": 0.2708251545395393,
+                    "map75": 0.21784208336912114
+                  },
+                  "large": {
+                    "map50": 0.8632433621757115,
+                    "map50_95": 0.5618216885723634,
+                    "map75": 0.6051042328753075
+                  }
+                }
+              },
+              "transverse": {
+                "map50": 0.6793505352367429,
+                "map50_95": 0.35109151353435825,
+                "map75": 0.33102137868103704,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.9999999999999999,
+                    "map50_95": 0.09999999999999999,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.75984998143577,
+                    "map50_95": 0.38832400383227317,
+                    "map75": 0.3781497380507282
+                  },
+                  "large": {
+                    "map50": 0.5436704384724187,
+                    "map50_95": 0.3158571523361127,
+                    "map75": 0.28794495520980673
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "performance_valid": {
+        "evalId": "qREB9h8dc5K0HvfOLzMW",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "fe491a8e7a9f46c41b8e",
+        "taskType": "object-detection-like",
+        "split": "valid",
+        "classes": [
+          {
+            "className": "alligator",
+            "map50": 0.3574427303881786,
+            "map50_95": 0.1772176304309996,
+            "map75": 0.1416818996219483,
+            "precision": 0.451,
+            "recall": 0.412,
+            "f1": 0.431,
+            "optimalThreshold": 0.15
+          },
+          {
+            "className": "block",
+            "map50": 0.8579823732005819,
+            "map50_95": 0.6752582915015132,
+            "map75": 0.7402348315679383,
+            "precision": 0.831,
+            "recall": 0.86,
+            "f1": 0.846,
+            "optimalThreshold": 0.33
+          },
+          {
+            "className": "crack",
+            "map50": 0.26993147700173914,
+            "map50_95": 0.12923945931572872,
+            "map75": 0.1051462803497816,
+            "precision": 0.422,
+            "recall": 0.323,
+            "f1": 0.366,
+            "optimalThreshold": 0.22
+          },
+          {
+            "className": "edge",
+            "map50": 0,
+            "map50_95": 0,
+            "map75": 0,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "optimalThreshold": 0
+          },
+          {
+            "className": "longitudinal",
+            "map50": 0.2715045256096611,
+            "map50_95": 0.09764258529229766,
+            "map75": 0.04874740821825367,
+            "precision": 0.375,
+            "recall": 0.409,
+            "f1": 0.391,
+            "optimalThreshold": 0.15
+          },
+          {
+            "className": "pothole",
+            "map50": 0.6070160665728273,
+            "map50_95": 0.30730513754506783,
+            "map75": 0.2690671341459509,
+            "precision": 0.674,
+            "recall": 0.612,
+            "f1": 0.642,
+            "optimalThreshold": 0.22
+          },
+          {
+            "className": "transverse",
+            "map50": 0.5784897669132211,
+            "map50_95": 0.3233857263389543,
+            "map75": 0.3041615292378839,
+            "precision": 0.704,
+            "recall": 0.603,
+            "f1": 0.65,
+            "optimalThreshold": 0.28
+          }
+        ]
+      },
+      "performance_test": {
+        "evalId": "qREB9h8dc5K0HvfOLzMW",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "fe491a8e7a9f46c41b8e",
+        "taskType": "object-detection-like",
+        "split": "test",
+        "classes": [
+          {
+            "className": "alligator",
+            "map50": 0.3288531808612013,
+            "map50_95": 0.14294677550334117,
+            "map75": 0.10454694258120852,
+            "precision": 0.418,
+            "recall": 0.39,
+            "f1": 0.404,
+            "optimalThreshold": 0.14
+          },
+          {
+            "className": "block",
+            "map50": 0.8470011937925868,
+            "map50_95": 0.6617223476013945,
+            "map75": 0.7047173805010701,
+            "precision": 0.833,
+            "recall": 0.851,
+            "f1": 0.842,
+            "optimalThreshold": 0.38
+          },
+          {
+            "className": "crack",
+            "map50": 0.7658535591703247,
+            "map50_95": 0.5903710735272806,
+            "map75": 0.6675945384600168,
+            "precision": 0.712,
+            "recall": 0.849,
+            "f1": 0.775,
+            "optimalThreshold": 0.4
+          },
+          {
+            "className": "edge",
+            "map50": null,
+            "map50_95": null,
+            "map75": null,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "optimalThreshold": 0
+          },
+          {
+            "className": "longitudinal",
+            "map50": 0.257894770652957,
+            "map50_95": 0.08281374165204859,
+            "map75": 0.02822645341208084,
+            "precision": 0.366,
+            "recall": 0.447,
+            "f1": 0.402,
+            "optimalThreshold": 0.12
+          },
+          {
+            "className": "pothole",
+            "map50": 0.6864889420102933,
+            "map50_95": 0.38082939851327324,
+            "map75": 0.35844349635039935,
+            "precision": 0.747,
+            "recall": 0.647,
+            "f1": 0.693,
+            "optimalThreshold": 0.27
+          },
+          {
+            "className": "transverse",
+            "map50": 0.6793505352367429,
+            "map50_95": 0.35109151353435825,
+            "map75": 0.33102137868103704,
+            "precision": 0.87,
+            "recall": 0.597,
+            "f1": 0.708,
+            "optimalThreshold": 0.36
+          }
+        ]
+      }
+    },
+    "YOLO26s": {
+      "model_spec": {
+        "variant": "s",
+        "model_url": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo26s-t2",
+        "model_slug": "roadddd-9ducw-2-yolo26s-t2",
+        "eval_id": "aDdCvi180NN0GvogPWf0"
+      },
+      "model_metadata": {
+        "url": "roadddd-9ducw-2-yolo26s-t2",
+        "train": {
+          "status": "finished"
+        },
+        "taskType": "object-detection",
+        "modelType": "yolo26s",
+        "name": "roadddd-9ducw-2-yolo26s-t2",
+        "created": "2026-07-12T18:39:35.463Z",
+        "metrics": {
+          "map50": 52.31,
+          "precision": 59.3,
+          "recall": 55.2,
+          "f1": 56.3
+        }
+      },
+      "eval": {
+        "evalId": "aDdCvi180NN0GvogPWf0",
+        "status": "done",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "f42ff497f8afe4ea802f",
+        "modelUrl": "tarek-amr-7rdkn/roadddd-9ducw-2-yolo26s-t2",
+        "createdAt": "2026-07-12T18:40:15.034Z",
+        "summary": {
+          "mAP": 0.5231178690407762,
+          "mIoU": null,
+          "precision": 0.593,
+          "recall": 0.552
+        }
+      },
+      "map_results": {
+        "evalId": "aDdCvi180NN0GvogPWf0",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "f42ff497f8afe4ea802f",
+        "taskType": "object-detection-like",
+        "splits": {
+          "valid": {
+            "map50": 0.38990860550272327,
+            "map50_95": 0.22838667711885213,
+            "map75": 0.2312521009321456,
+            "byObjectSize": {
+              "small": {
+                "map50": 0.12546157011452586,
+                "map50_95": 0.05146999931104292,
+                "map75": 0.029919088734433306
+              },
+              "medium": {
+                "map50": 0.2798209550114366,
+                "map50_95": 0.138325261717568,
+                "map75": 0.1087826871959352
+              },
+              "large": {
+                "map50": 0.440003393746179,
+                "map50_95": 0.26511785412122224,
+                "map75": 0.28435234386922414
+              }
+            },
+            "perClass": {
+              "alligator": {
+                "map50": 0.2774286593634983,
+                "map50_95": 0.1333535440473682,
+                "map75": 0.10573934620118781,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.008910891089108912,
+                    "map50_95": 0.0011255862428348098,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.18106185602902566,
+                    "map50_95": 0.04840765257827702,
+                    "map75": 0.0115186016071822
+                  },
+                  "large": {
+                    "map50": 0.3165048245423723,
+                    "map50_95": 0.16608597213035775,
+                    "map75": 0.1446257943434779
+                  }
+                }
+              },
+              "block": {
+                "map50": 0.8868509319442817,
+                "map50_95": 0.6379547087140047,
+                "map75": 0.7333976470313639,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": {
+                    "map50": 0.8868509319442817,
+                    "map50_95": 0.6379547087140047,
+                    "map75": 0.7333976470313639
+                  }
+                }
+              },
+              "crack": {
+                "map50": 0.19647647668786566,
+                "map50_95": 0.08796625513126285,
+                "map75": 0.07762462130328394,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0,
+                    "map50_95": 0,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.0019801980198019802,
+                    "map50_95": 0.001188118811881188,
+                    "map75": 0.0019801980198019802
+                  },
+                  "large": {
+                    "map50": 0.24092616127593738,
+                    "map50_95": 0.10703564892690036,
+                    "map75": 0.09370507029158026
+                  }
+                }
+              },
+              "edge": {
+                "map50": 0,
+                "map50_95": 0,
+                "map75": 0,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": {
+                    "map50": 0,
+                    "map50_95": 0,
+                    "map75": 0
+                  }
+                }
+              },
+              "longitudinal": {
+                "map50": 0.204381045527068,
+                "map50_95": 0.0887333373390661,
+                "map75": 0.06690023159061831,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.15955194826697197,
+                    "map50_95": 0.07944456710144458,
+                    "map75": 0.051485148514851475
+                  },
+                  "medium": {
+                    "map50": 0.19139875234236006,
+                    "map50_95": 0.08164766096344477,
+                    "map75": 0.05316382654972767
+                  },
+                  "large": {
+                    "map50": 0.25606915394175517,
+                    "map50_95": 0.11907086010253717,
+                    "map75": 0.11517180056477314
+                  }
+                }
+              },
+              "pothole": {
+                "map50": 0.5649878678037685,
+                "map50_95": 0.2898474361838548,
+                "map75": 0.25273607852692026,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.4331024369591227,
+                    "map50_95": 0.1613342986564798,
+                    "map75": 0.07236772089988928
+                  },
+                  "medium": {
+                    "map50": 0.4354207064081398,
+                    "map50_95": 0.19531780151255615,
+                    "map75": 0.12197336789972331
+                  },
+                  "large": {
+                    "map50": 0.7288538093743014,
+                    "map50_95": 0.43648797298869996,
+                    "map75": 0.4623025217261857
+                  }
+                }
+              },
+              "transverse": {
+                "map50": 0.5992352571925804,
+                "map50_95": 0.3608514584164083,
+                "map75": 0.38236678187164497,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.025742574257425748,
+                    "map50_95": 0.015445544554455447,
+                    "map75": 0.025742574257425748
+                  },
+                  "medium": {
+                    "map50": 0.5892432622578556,
+                    "map50_95": 0.3650650747216808,
+                    "map75": 0.35527744190324084
+                  },
+                  "large": {
+                    "map50": 0.6508188751446046,
+                    "map50_95": 0.3891898159860557,
+                    "map75": 0.4412635731271884
+                  }
+                }
+              }
+            }
+          },
+          "test": {
+            "map50": 0.5231178690407762,
+            "map50_95": 0.317128264516019,
+            "map75": 0.3193023309571143,
+            "byObjectSize": {
+              "small": {
+                "map50": 0.20229482241183963,
+                "map50_95": 0.09187249723561,
+                "map75": 0.09157561662058278
+              },
+              "medium": {
+                "map50": 0.4719987798805317,
+                "map50_95": 0.24200115253159635,
+                "map75": 0.22955415152566555
+              },
+              "large": {
+                "map50": 0.534761532216978,
+                "map50_95": 0.34598505517853523,
+                "map75": 0.36817761979937497
+              }
+            },
+            "perClass": {
+              "alligator": {
+                "map50": 0.2506097939391747,
+                "map50_95": 0.10360004124489357,
+                "map75": 0.07008540547504233,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0,
+                    "map50_95": 0,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.20348737407205963,
+                    "map50_95": 0.0445082727631987,
+                    "map75": 0.004516073409131197
+                  },
+                  "large": {
+                    "map50": 0.2760527321517416,
+                    "map50_95": 0.12941297687499095,
+                    "map75": 0.09841652051330488
+                  }
+                }
+              },
+              "block": {
+                "map50": 0.736733670693327,
+                "map50_95": 0.5468076757744181,
+                "map75": 0.6156637882587768,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": {
+                    "map50": 0.736733670693327,
+                    "map50_95": 0.5468076757744181,
+                    "map75": 0.6156637882587768
+                  }
+                }
+              },
+              "crack": {
+                "map50": 0.6360791024724236,
+                "map50_95": 0.4719770410276706,
+                "map75": 0.5484931274182815,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": {
+                    "map50": 0.6495756718528998,
+                    "map50_95": 0.4521118860654538,
+                    "map75": 0.5934700612918434
+                  },
+                  "large": {
+                    "map50": 0.6388822582739533,
+                    "map50_95": 0.47616701619176377,
+                    "map75": 0.5471609121367381
+                  }
+                }
+              },
+              "edge": {
+                "map50": null,
+                "map50_95": null,
+                "map75": null,
+                "byObjectSize": {
+                  "small": null,
+                  "medium": null,
+                  "large": null
+                }
+              },
+              "longitudinal": {
+                "map50": 0.21268122892732555,
+                "map50_95": 0.07909363256927789,
+                "map75": 0.045951707815054386,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.03615109410100674,
+                    "map50_95": 0.005349807825546678,
+                    "map75": 0
+                  },
+                  "medium": {
+                    "map50": 0.25561683505431,
+                    "map50_95": 0.09409544155841415,
+                    "map75": 0.049011698643196176
+                  },
+                  "large": {
+                    "map50": 0.18080589351465418,
+                    "map50_95": 0.07749434853259811,
+                    "map75": 0.06267207581961923
+                  }
+                }
+              },
+              "pothole": {
+                "map50": 0.672923721193864,
+                "map50_95": 0.3707113889041663,
+                "map75": 0.35325083328707835,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.5230281955463518,
+                    "map50_95": 0.2121401811168934,
+                    "map75": 0.11630246648233111
+                  },
+                  "medium": {
+                    "map50": 0.5336067923972264,
+                    "map50_95": 0.25480132362944946,
+                    "map75": 0.2060880731017647
+                  },
+                  "large": {
+                    "map50": 0.8510015365803315,
+                    "map50_95": 0.5442846919106121,
+                    "map75": 0.5990622300370249
+                  }
+                }
+              },
+              "transverse": {
+                "map50": 0.6296796970185419,
+                "map50_95": 0.33057980757568767,
+                "map75": 0.2823691234884527,
+                "byObjectSize": {
+                  "small": {
+                    "map50": 0.25,
+                    "map50_95": 0.15,
+                    "map75": 0.25
+                  },
+                  "medium": {
+                    "map50": 0.7177072260261627,
+                    "map50_95": 0.3644888386414655,
+                    "map75": 0.2946848511823922
+                  },
+                  "large": {
+                    "map50": 0.5250931020878604,
+                    "map50_95": 0.30174362178682856,
+                    "map75": 0.28609019203078606
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "performance_valid": {
+        "evalId": "aDdCvi180NN0GvogPWf0",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "f42ff497f8afe4ea802f",
+        "taskType": "object-detection-like",
+        "split": "valid",
+        "classes": [
+          {
+            "className": "alligator",
+            "map50": 0.2774286593634983,
+            "map50_95": 0.1333535440473682,
+            "map75": 0.10573934620118781,
+            "precision": 0.393,
+            "recall": 0.358,
+            "f1": 0.374,
+            "optimalThreshold": 0.2
+          },
+          {
+            "className": "block",
+            "map50": 0.8868509319442817,
+            "map50_95": 0.6379547087140047,
+            "map75": 0.7333976470313639,
+            "precision": 0.899,
+            "recall": 0.826,
+            "f1": 0.861,
+            "optimalThreshold": 0.51
+          },
+          {
+            "className": "crack",
+            "map50": 0.19647647668786566,
+            "map50_95": 0.08796625513126285,
+            "map75": 0.07762462130328394,
+            "precision": 0.356,
+            "recall": 0.274,
+            "f1": 0.31,
+            "optimalThreshold": 0.1
+          },
+          {
+            "className": "edge",
+            "map50": 0,
+            "map50_95": 0,
+            "map75": 0,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "optimalThreshold": 0
+          },
+          {
+            "className": "longitudinal",
+            "map50": 0.204381045527068,
+            "map50_95": 0.0887333373390661,
+            "map75": 0.06690023159061831,
+            "precision": 0.378,
+            "recall": 0.313,
+            "f1": 0.342,
+            "optimalThreshold": 0.18
+          },
+          {
+            "className": "pothole",
+            "map50": 0.5649878678037685,
+            "map50_95": 0.2898474361838548,
+            "map75": 0.25273607852692026,
+            "precision": 0.689,
+            "recall": 0.559,
+            "f1": 0.617,
+            "optimalThreshold": 0.38
+          },
+          {
+            "className": "transverse",
+            "map50": 0.5992352571925804,
+            "map50_95": 0.3608514584164083,
+            "map75": 0.38236678187164497,
+            "precision": 0.69,
+            "recall": 0.635,
+            "f1": 0.661,
+            "optimalThreshold": 0.38
+          }
+        ]
+      },
+      "performance_test": {
+        "evalId": "aDdCvi180NN0GvogPWf0",
+        "project": "roadddd-9ducw",
+        "versionId": "2",
+        "modelId": "f42ff497f8afe4ea802f",
+        "taskType": "object-detection-like",
+        "split": "test",
+        "classes": [
+          {
+            "className": "alligator",
+            "map50": 0.2506097939391747,
+            "map50_95": 0.10360004124489357,
+            "map75": 0.07008540547504233,
+            "precision": 0.374,
+            "recall": 0.338,
+            "f1": 0.355,
+            "optimalThreshold": 0.21
+          },
+          {
+            "className": "block",
+            "map50": 0.736733670693327,
+            "map50_95": 0.5468076757744181,
+            "map75": 0.6156637882587768,
+            "precision": 0.818,
+            "recall": 0.766,
+            "f1": 0.791,
+            "optimalThreshold": 0.37
+          },
+          {
+            "className": "crack",
+            "map50": 0.6360791024724236,
+            "map50_95": 0.4719770410276706,
+            "map75": 0.5484931274182815,
+            "precision": 0.652,
+            "recall": 0.624,
+            "f1": 0.637,
+            "optimalThreshold": 0.69
+          },
+          {
+            "className": "edge",
+            "map50": null,
+            "map50_95": null,
+            "map75": null,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0,
+            "optimalThreshold": 0
+          },
+          {
+            "className": "longitudinal",
+            "map50": 0.21268122892732555,
+            "map50_95": 0.07909363256927789,
+            "map75": 0.045951707815054386,
+            "precision": 0.405,
+            "recall": 0.328,
+            "f1": 0.362,
+            "optimalThreshold": 0.22
+          },
+          {
+            "className": "pothole",
+            "map50": 0.672923721193864,
+            "map50_95": 0.3707113889041663,
+            "map75": 0.35325083328707835,
+            "precision": 0.821,
+            "recall": 0.603,
+            "f1": 0.695,
+            "optimalThreshold": 0.5
+          },
+          {
+            "className": "transverse",
+            "map50": 0.6296796970185419,
+            "map50_95": 0.33057980757568767,
+            "map75": 0.2823691234884527,
+            "precision": 0.647,
+            "recall": 0.657,
+            "f1": 0.652,
+            "optimalThreshold": 0.25
+          }
+        ]
+      }
+    }
+  }
+}

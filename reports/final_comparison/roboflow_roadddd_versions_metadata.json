@@ -1,0 +1,238 @@
+{
+  "1": {
+    "id": "tarek-amr-7rdkn/roadddd-9ducw/1",
+    "name": "yolo11 data",
+    "created": 1783812463.103,
+    "images": 6694,
+    "splits": {
+      "valid": 1140,
+      "test": 679,
+      "train": 4875
+    },
+    "generating": false,
+    "progress": 1,
+    "preprocessing": {},
+    "augmentation": {},
+    "exports": [],
+    "models": {},
+    "trainings": [],
+    "classes": []
+  },
+  "2": {
+    "id": "tarek-amr-7rdkn/roadddd-9ducw/2",
+    "name": "yolo11 data-resized",
+    "created": 1783812782.771,
+    "images": 6694,
+    "splits": {
+      "valid": 1140,
+      "test": 679,
+      "train": 4875
+    },
+    "generating": false,
+    "progress": 1,
+    "model": {
+      "id": "roadddd-9ducw/2",
+      "endpoint": "https://serverless.roboflow.com/roadddd-9ducw/2",
+      "start": 1783813141.503,
+      "end": 1783821604.8,
+      "fromScratch": false,
+      "tfjs": false,
+      "oak": false,
+      "map": "43.06",
+      "recall": "42.84",
+      "precision": "61.59"
+    },
+    "preprocessing": {
+      "resize": {
+        "format": "Stretch to",
+        "width": "640",
+        "height": "640"
+      }
+    },
+    "augmentation": {},
+    "exports": [
+      "coco",
+      "yolov5pytorch"
+    ],
+    "modelType": "yolov11n",
+    "train": {
+      "status": "finished",
+      "model": "yolov11n",
+      "modelType": "yolov11n",
+      "checkpoint": "COCOn",
+      "start": {
+        "_seconds": 1783813141,
+        "_nanoseconds": 503000000
+      },
+      "end": {
+        "_seconds": 1783821604,
+        "_nanoseconds": 800000000
+      },
+      "results": {
+        "map": 0.43056301686771076,
+        "precision": 0.6158908178865488,
+        "recall": 0.42836298055151645,
+        "test_inference": true,
+        "class_map": {
+          "valid": [
+            {
+              "class": "all",
+              "images": 1140,
+              "targets": 3568,
+              "precision": 0.6158908178865488,
+              "recall": 0.42836298055151645,
+              "map50": 0.43056301686771076,
+              "map95": 0.25148728700246564
+            },
+            {
+              "class": "alligator",
+              "images": 1140,
+              "targets": 995,
+              "precision": 0.5071534180895715,
+              "recall": 0.3236180904522613,
+              "map50": 0.36740575580367313,
+              "map95": 0.18551460650823853
+            },
+            {
+              "class": "block",
+              "images": 1140,
+              "targets": 86,
+              "precision": 0.7805845538646686,
+              "recall": 0.8837209302325582,
+              "map50": 0.910363727248495,
+              "map95": 0.6950500810776218
+            },
+            {
+              "class": "crack",
+              "images": 1140,
+              "targets": 226,
+              "precision": 0.30979736856364,
+              "recall": 0.2920353982300885,
+              "map50": 0.235181034385137,
+              "map95": 0.11187737965459461
+            },
+            {
+              "class": "edge",
+              "images": 1140,
+              "targets": 1,
+              "precision": 1,
+              "recall": 0,
+              "map50": 0,
+              "map95": 0
+            },
+            {
+              "class": "longitudinal",
+              "images": 1140,
+              "targets": 543,
+              "precision": 0.3986749810849487,
+              "recall": 0.3020257826887661,
+              "map50": 0.254417922012237,
+              "map95": 0.10191526382232992
+            },
+            {
+              "class": "pothole",
+              "images": 1140,
+              "targets": 1591,
+              "precision": 0.6595992741089725,
+              "recall": 0.5939660590823381,
+              "map50": 0.623269000805247,
+              "map95": 0.3149756859042588
+            },
+            {
+              "class": "transverse",
+              "images": 1140,
+              "targets": 126,
+              "precision": 0.6554261294940396,
+              "recall": 0.6031746031746031,
+              "map50": 0.6233036778191858,
+              "map95": 0.3510779920502164
+            }
+          ],
+          "test": [
+            {
+              "class": "all",
+              "images": 679,
+              "targets": 2001,
+              "precision": 0.6436351289153809,
+              "recall": 0.5902271816771546,
+              "map50": 0.6115335885250356,
+              "map95": 0.3832378296193657
+            },
+            {
+              "class": "alligator",
+              "images": 679,
+              "targets": 577,
+              "precision": 0.5423058439967593,
+              "recall": 0.2668977469670711,
+              "map50": 0.3663636877138699,
+              "map95": 0.1575972651490903
+            },
+            {
+              "class": "block",
+              "images": 679,
+              "targets": 47,
+              "precision": 0.8189752156756355,
+              "recall": 0.9148936170212766,
+              "map50": 0.8931096206025713,
+              "map95": 0.6988596242521811
+            },
+            {
+              "class": "crack",
+              "images": 679,
+              "targets": 93,
+              "precision": 0.5965024214317093,
+              "recall": 0.8709677419354839,
+              "map50": 0.7723875980358166,
+              "map95": 0.5630216372931608
+            },
+            {
+              "class": "longitudinal",
+              "images": 679,
+              "targets": 311,
+              "precision": 0.44617935891367333,
+              "recall": 0.27009646302250806,
+              "map50": 0.25343328855864955,
+              "map95": 0.09162810681031855
+            },
+            {
+              "class": "pothole",
+              "images": 679,
+              "targets": 906,
+              "precision": 0.7513088499426827,
+              "recall": 0.6434878587196468,
+              "map50": 0.7098802065218424,
+              "map95": 0.39098562555186295
+            },
+            {
+              "class": "transverse",
+              "images": 679,
+              "targets": 67,
+              "precision": 0.7065390835318252,
+              "recall": 0.5750196623969409,
+              "map50": 0.6740271297174636,
+              "map95": 0.3973347186595801
+            }
+          ]
+        },
+        "finished_epochs": 190
+      }
+    },
+    "models": {},
+    "trainings": [
+      {
+        "id": "1ff9a7f308d8d25d4297",
+        "versionId": "2",
+        "status": "finished",
+        "start": 1783813141503,
+        "end": 1783821604800,
+        "jobType": "fine-tune",
+        "modelType": "yolov11n",
+        "modelGroup": null,
+        "modelIds": [
+          "tarek-amr-7rdkn/roadddd-9ducw-2-yolo11n-t1"
+        ]
+      }
+    ],
+    "classes": []
+  }
+}

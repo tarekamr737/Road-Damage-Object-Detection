@@ -1,0 +1,25 @@
+provider: local_ultralytics
+deployment_platform: self_hosted_streamlit
+deployment_url: http://localhost:8501
+model_name: YOLOv8s local baseline
+model_path: models/exports/production_road_damage_model.pt
+model_sha256: 9c51b412886730363d100577098a04fc92c7e5a6c0481b786a796ee3de9d5d13
+device: auto
+deployment_reason: Local YOLOv8s is the selected production runtime because it is available offline, benchmarked locally, and close to the hosted Roboflow metric leader.
+roboflow_workspace: tarek-amr-7rdkn
+roboflow_project: roadddd-9ducw
+roboflow_version: 2
+roboflow_model_id: tarek-amr-7rdkn/roadddd-9ducw-2-yolo11n-t1
+roboflow_model_slug: roadddd-9ducw-2-yolo11n-t1
+roboflow_eval_id: qREB9h8dc5K0HvfOLzMW
+roboflow_endpoint: https://serverless.roboflow.com/roadddd-9ducw/2
+default_confidence_threshold: 0.25
+default_image_size: 640
+max_upload_mb: 15
+max_image_dimension: 4096
+max_process_rss_mb: 4096
+supported_types:
+  - jpg
+  - jpeg
+  - png
+  - webp

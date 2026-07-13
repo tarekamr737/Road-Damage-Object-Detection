@@ -1,0 +1,17 @@
+source_url: https://universe.roboflow.com/trafficsignssafeway/road-damage-l1ju7
+workspace_id: tarek-amr-7rdkn
+project_id: road-damage-l1ju7-rhumc
+version: 1
+export_format: yolov8
+
+source_dataset_dir: data/raw/road-damage-source-v1
+processed_dataset_dir: data/processed/road-damage-detection-bbox-v1
+reports_dir: data/reports/data_audit_bbox_v1
+
+expected_classes:
+  - crack
+  - pothole
+  - block
+  - edge
+  - alligator
+  - custom

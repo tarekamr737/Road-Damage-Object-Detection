@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-07-12T19:42:31.724597+00:00",
+  "benchmark_images": 150,
+  "image_size": 640,
+  "confidence_threshold": 0.25,
+  "output": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\reports\\final_comparison\\benchmark.csv"
+}

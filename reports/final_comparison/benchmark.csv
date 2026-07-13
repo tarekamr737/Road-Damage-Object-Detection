@@ -1,0 +1,2 @@
+"benchmark_images","median_wall_latency_ms","mean_wall_latency_ms","p95_wall_latency_ms","fps_from_median_latency","mean_preprocess_ms","mean_inference_ms","mean_postprocess_ms","peak_vram_mb","model","checkpoint","model_load_ms","cold_first_inference_ms"
+"150","11.706499994033948","13.565186665994892","14.737414995033758","85.42262849781197","1.8086739993304946","10.41119466749175","1.1220306669323084","78.50927734375","YOLOv8s","D:\INSTANT TRAINING\2nd Sprint\2nd project\runs\YOLOv8s\baseline_seed42\weights\best.pt","43.447500007459894","1873.866599999019"

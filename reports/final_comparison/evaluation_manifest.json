@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-07-12T19:41:54.823149+00:00",
+  "data_yaml": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\data\\processed\\road-damage-detection-bbox-v1\\data_detection.yaml",
+  "models": {
+    "YOLOv8s": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\runs\\YOLOv8s\\baseline_seed42\\weights\\best.pt"
+  },
+  "deploy_confidence_threshold": 0.25,
+  "match_iou_threshold": 0.5,
+  "outputs": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\reports\\final_comparison"
+}

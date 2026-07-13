@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ultralytics/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local datasets, model artifacts, and experiment outputs
+data/raw/*
+data/interim/*
+data/processed/*
+data/reports/*
+models/checkpoints/*
+models/exports/*
+runs/*
+reports/figures/*
+reports/tables/*
+exports/*
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.mlpackage
+
+# Keep project structure
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/reports/.gitkeep
+!models/checkpoints/.gitkeep
+!models/exports/.gitkeep
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

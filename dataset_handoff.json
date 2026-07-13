@@ -1,0 +1,19 @@
+{
+  "processed_dataset_dir": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\data\\processed\\road-damage-detection-bbox-v1",
+  "data_yaml": "D:\\INSTANT TRAINING\\2nd Sprint\\2nd project\\data\\processed\\road-damage-detection-bbox-v1\\data_detection.yaml",
+  "critical_validation_errors": 0,
+  "all_validation_errors": 0,
+  "cross_split_exact_duplicate_groups": 0,
+  "images_by_split": {
+    "train": 4930,
+    "val": 1146,
+    "test": 681
+  },
+  "objects_by_split": {
+    "train": 15025,
+    "val": 3588,
+    "test": 2004
+  },
+  "training_gate_passed": true,
+  "created_at_utc": "2026-07-11T19:09:37.857549+00:00"
+}

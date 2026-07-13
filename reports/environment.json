@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-07-12T19:42:21.691616+00:00",
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.13.0+cu126",
+  "cuda_runtime": "12.6",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "ultralytics": "8.4.92"
+}

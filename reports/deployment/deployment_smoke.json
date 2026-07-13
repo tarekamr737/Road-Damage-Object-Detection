@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-07-13T13:31:08.547116+00:00",
+  "passed": true,
+  "errors": [],
+  "deployment_platform": "self_hosted_streamlit",
+  "deployment_url": "http://localhost:8501",
+  "provider": "local_ultralytics",
+  "model_path": "models/exports/production_road_damage_model.pt",
+  "model_sha256": "9c51b412886730363d100577098a04fc92c7e5a6c0481b786a796ee3de9d5d13",
+  "configured_upload_mb": 15,
+  "streamlit_upload_mb": 15,
+  "max_process_rss_mb": 4096.0,
+  "memory_before_mb": 490.37109375,
+  "memory_after_model_mb": 587.87890625,
+  "memory_after_inference_mb": 1292.51171875,
+  "peak_observed_rss_mb": 1292.51171875,
+  "model_load_ms": 1314.679899980547,
+  "first_inference_ms": 4990.334800007986,
+  "synthetic_detections": 0
+}

@@ -1,0 +1,65 @@
+{
+  "1": {
+    "id": "tarek-amr-7rdkn/road-damage-l1ju7-rhumc/1",
+    "name": "2026-07-11 4:53pm",
+    "created": 1783780033.894,
+    "images": 6757,
+    "splits": {
+      "valid": 1146,
+      "test": 681,
+      "train": 4930
+    },
+    "generating": false,
+    "progress": 1,
+    "preprocessing": {
+      "auto-orient": true
+    },
+    "augmentation": {},
+    "exports": [
+      "yolov8"
+    ],
+    "models": {},
+    "trainings": [],
+    "classes": []
+  },
+  "2": {
+    "id": "tarek-amr-7rdkn/road-damage-l1ju7-rhumc/2",
+    "name": "YOLO11data",
+    "created": 1783807029.081,
+    "images": 6757,
+    "splits": {
+      "valid": 1146,
+      "test": 681,
+      "train": 4930
+    },
+    "generating": false,
+    "progress": 1,
+    "preprocessing": {
+      "auto-orient": true,
+      "resize": {
+        "format": "Stretch to",
+        "width": "640",
+        "height": "640"
+      }
+    },
+    "augmentation": {},
+    "exports": [
+      "yolov5pytorch"
+    ],
+    "models": {},
+    "trainings": [
+      {
+        "id": "568d500cf81d36877693",
+        "versionId": "2",
+        "status": "cancelled",
+        "start": 1783807656258,
+        "end": 1783808140509,
+        "jobType": "fine-tune",
+        "modelType": "yolov11n",
+        "modelGroup": null,
+        "modelIds": []
+      }
+    ],
+    "classes": []
+  }
+}

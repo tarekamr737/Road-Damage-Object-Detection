@@ -1,0 +1,10 @@
+services:
+  road-damage-app:
+    build: .
+    image: road-damage-detection:local
+    ports:
+      - "8501:8501"
+    environment:
+      STREAMLIT_SERVER_HEADLESS: "true"
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+    restart: unless-stopped

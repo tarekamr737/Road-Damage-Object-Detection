@@ -1,0 +1,24 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff check
+        entry: python scripts/run_quality_hook.py ruff-check
+        language: system
+        types_or: [python, pyi]
+        pass_filenames: false
+        always_run: true
+      - id: ruff-format-check
+        name: ruff format check
+        entry: python scripts/run_quality_hook.py ruff-format-check
+        language: system
+        types_or: [python, pyi]
+        pass_filenames: false
+        always_run: true
+      - id: synthetic-inference-smoke
+        name: synthetic inference smoke
+        entry: python scripts/run_quality_hook.py synthetic-inference-smoke
+        language: system
+        types: [python]
+        pass_filenames: false
+        always_run: true

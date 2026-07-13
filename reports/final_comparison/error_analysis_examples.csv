@@ -1,0 +1,21 @@
+example_type,image,ground_truth_objects,predicted_objects,matched_true_positives,false_positives,false_negatives,mean_matched_iou,min_matched_iou,ground_truth_classes,predicted_classes
+false_positive_heavy,pa3611_jpg.rf.2f36ae32660850fbf152902ed74e958b.jpg,11,17,3,14,8,0.8262887625439618,0.7968870853656602,alligator:2; longitudinal:6; pothole:3,alligator:3; longitudinal:8; pothole:6
+false_positive_heavy,pa3603_jpg.rf.77be033ac089f50c4bcbe35db17e19d9.jpg,15,14,3,11,12,0.7691787116817403,0.708338528726379,alligator:3; longitudinal:8; pothole:4,alligator:3; longitudinal:8; pothole:3
+false_positive_heavy,pa3359_jpg.rf.64880577970b08fba7c0b83a62f5e035.jpg,8,13,2,11,6,0.6780196870437243,0.5152579921526373,alligator:1; pothole:7,alligator:1; longitudinal:1; pothole:11
+false_positive_heavy,pa3514_jpg.rf.7a8f44827bb538b64283c7427e0ecc37.jpg,16,14,4,10,12,0.753529095642262,0.595027335897944,alligator:1; longitudinal:6; pothole:9,alligator:2; longitudinal:2; pothole:10
+false_positive_heavy,al804_jpg.rf.02e5b7fab35137caa742e1756916c57b.jpg,3,10,0,10,3,,,alligator:3,longitudinal:4; pothole:6
+false_negative_heavy,pa3111_jpg.rf.5b3684b2dc8a0b32cc77a3ee424108e6.jpg,14,4,0,4,14,,,alligator:1; longitudinal:3; pothole:10,longitudinal:1; pothole:3
+false_negative_heavy,pa3514_jpg.rf.7a8f44827bb538b64283c7427e0ecc37.jpg,16,14,4,10,12,0.753529095642262,0.595027335897944,alligator:1; longitudinal:6; pothole:9,alligator:2; longitudinal:2; pothole:10
+false_negative_heavy,pa3603_jpg.rf.77be033ac089f50c4bcbe35db17e19d9.jpg,15,14,3,11,12,0.7691787116817403,0.708338528726379,alligator:3; longitudinal:8; pothole:4,alligator:3; longitudinal:8; pothole:3
+false_negative_heavy,pa3236_jpg.rf.b9829cd4ea18c38460230cb2f4732af8.jpg,16,10,5,5,11,0.7215091544925227,0.5870136257800679,longitudinal:1; pothole:15,pothole:10
+false_negative_heavy,pa3395_jpg.rf.1cc138d48f54560618ceb962ac6b1586.jpg,21,18,11,7,10,0.7021543791593855,0.5958006402409753,longitudinal:1; pothole:20,pothole:18
+low_localization_iou,al687_jpg.rf.9ccb0b6c59fb637b05db2a1d5ab9e7a6.jpg,3,1,1,0,2,0.5000492182446926,0.5000492182446926,alligator:3,alligator:1
+low_localization_iou,crack-647_jpg.rf.7eeb152e471d5a24808af9f67a6b465d.jpg,2,2,1,1,1,0.5004533501133045,0.5004533501133045,alligator:1; block:1,alligator:1; longitudinal:1
+low_localization_iou,al1765_jpg.rf.020c7c8c409a730544986e57d2577862.jpg,6,5,1,4,5,0.5014725229642684,0.5014725229642684,alligator:6,alligator:5
+low_localization_iou,gsv_139_jpg.rf.1636d5bc1763dc1bc7fe099951692814.jpg,3,5,1,4,2,0.5031545533341603,0.5031545533341603,alligator:1; longitudinal:2,alligator:1; longitudinal:3; transverse:1
+low_localization_iou,img-223_jpg.rf.58dad9f8ea27dadbd68acfed9e7e827e.jpg,1,2,1,1,0,0.5052941554394959,0.5052941554394959,pothole:1,pothole:2
+representative_strong_match,img-23_jpg.rf.3f89f88c175830959dbcd5ecfcb84487.jpg,5,5,5,0,0,0.8597891459394553,0.81794365138433,pothole:5,pothole:5
+representative_strong_match,img-657_jpg.rf.0047bb625f2fafda46b603aa46b45494.jpg,5,5,5,0,0,0.7045956995758083,0.6058370996826332,longitudinal:3; pothole:2,longitudinal:3; pothole:2
+representative_strong_match,img-366_jpg.rf.31c34bba9b29281c8cc94806f63a3b9b.jpg,4,4,4,0,0,0.8256107208955616,0.7701629606950312,alligator:1; pothole:3,alligator:1; pothole:3
+representative_strong_match,img-547_jpg.rf.5a5211448e8478130e776c747a119432.jpg,3,3,3,0,0,0.8732755270015504,0.7980859252985438,pothole:3,pothole:3
+representative_strong_match,img-547_jpg.rf.5350d62179c78360d155aa0d00882b79.jpg,3,3,3,0,0,0.8543583064753304,0.7905713702671594,pothole:3,pothole:3

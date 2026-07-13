@@ -2,8 +2,11 @@
 
 ## Chosen Platform
 
-The project deployment target is a self-hosted Streamlit application using the
-local YOLOv8s PyTorch checkpoint. The app runs at:
+The project deployment target is Streamlit using the local YOLOv8s PyTorch
+checkpoint. It can run locally, self-hosted, or from Streamlit Community Cloud
+after the repository is published to GitHub.
+
+The local app runs at:
 
 ```text
 http://localhost:8501
@@ -29,6 +32,33 @@ Expected SHA256:
 
 The startup health check verifies this checksum before the app serves
 predictions.
+
+For Streamlit Community Cloud, this checkpoint must be committed with the
+repository. The repository intentionally tracks only this production `.pt`
+artifact; training checkpoints, ONNX exports, datasets, and run caches remain
+ignored.
+
+## Streamlit Community Cloud
+
+If the local Streamlit toolbar says the app is not connected to GitHub, deploy
+from the Community Cloud workspace instead of the local toolbar:
+
+```text
+https://share.streamlit.io
+```
+
+Use these settings:
+
+```text
+Repository: tarekamr737/2nd-project
+Branch: main
+Main file path: app/app.py
+Python version: 3.11
+```
+
+The active local YOLOv8s runtime does not require a Roboflow API key. If the app
+is later switched to `roboflow_hosted`, add `ROBOFLOW_API_KEY` in the app's
+Community Cloud secrets.
 
 ## Local Deployment
 

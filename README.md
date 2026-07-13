@@ -162,8 +162,8 @@ the production target for this project.
 
 ## Deployment
 
-Chosen deployment target: self-hosted Streamlit using the local YOLOv8s
-checkpoint. The local deployment URL is:
+Chosen deployment target: Streamlit using the local YOLOv8s checkpoint. The
+local deployment URL is:
 
 ```text
 http://localhost:8501
@@ -189,6 +189,20 @@ docker compose up --build
 
 Deployment notes are in `DEPLOYMENT.md`. Local smoke outputs and screenshots are
 saved under `reports/deployment/`.
+
+For Streamlit Community Cloud, deploy from the Cloud workspace and enter the
+repository manually if the local toolbar cannot detect it:
+
+```text
+Repository: tarekamr737/2nd-project
+Branch: main
+Main file path: app/app.py
+Python version: 3.11
+```
+
+The production `.pt` checkpoint is the only model artifact that should be
+published with the app. No Roboflow secret is required for the active local
+YOLOv8s runtime.
 
 ## Current Results Snapshot
 

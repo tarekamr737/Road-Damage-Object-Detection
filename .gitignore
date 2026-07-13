@@ -35,6 +35,7 @@ exports/*
 *.torchscript
 *.tflite
 *.mlpackage
+!models/exports/production_road_damage_model.pt
 
 # Keep project structure
 !data/raw/.gitkeep

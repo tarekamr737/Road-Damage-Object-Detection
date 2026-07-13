@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-07-13T13:31:08.547116+00:00",
+  "created_at_utc": "2026-07-13T13:57:02.254205+00:00",
   "passed": true,
   "errors": [],
   "deployment_platform": "self_hosted_streamlit",
@@ -10,11 +10,11 @@
   "configured_upload_mb": 15,
   "streamlit_upload_mb": 15,
   "max_process_rss_mb": 4096.0,
-  "memory_before_mb": 490.37109375,
-  "memory_after_model_mb": 587.87890625,
-  "memory_after_inference_mb": 1292.51171875,
-  "peak_observed_rss_mb": 1292.51171875,
-  "model_load_ms": 1314.679899980547,
-  "first_inference_ms": 4990.334800007986,
+  "memory_before_mb": 489.76171875,
+  "memory_after_model_mb": 587.890625,
+  "memory_after_inference_mb": 1300.421875,
+  "peak_observed_rss_mb": 1300.421875,
+  "model_load_ms": 578.6702999903355,
+  "first_inference_ms": 3197.7555000048596,
   "synthetic_detections": 0
 }

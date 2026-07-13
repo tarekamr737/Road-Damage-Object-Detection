@@ -32,6 +32,7 @@
 - [x] Local `.pt` downloads are not available for the hosted Roboflow fine-tunes with the current API permissions.
 - [x] Streamlit app shell supports local Ultralytics and hosted Roboflow inference and is configured for local YOLOv8s.
 - [x] Streamlit UI has been refreshed into a dark professional inspection-console theme, with desktop and narrow/mobile screenshots updated.
+- [x] Streamlit Community Cloud deployment path is documented with GitHub repo, branch, app entrypoint, runtime requirements, and the production `.pt` checkpoint selected for publication.
 - [x] Local YOLOv8s production-smoke inference passed on one validation image.
 - [x] Annotation rendering, detection filtering, CSV/JSON export helpers, and related unit tests are implemented.
 - [ ] Local YOLO26s baseline has not been started; only hosted Roboflow YOLO26s metrics have been imported.
@@ -859,13 +860,13 @@ Implement this only after stable image inference is complete.
 ### RD-098 — Deploy the Streamlit application
 
 - [ ] Choose and document the deployment platform.
-- [ ] Pin deployment dependencies.
+- [x] Pin deployment dependencies.
 - [x] Add Streamlit configuration under `.streamlit/config.toml`.
 - [ ] Store secrets through the platform's secret manager.
-- [ ] Ensure the final checkpoint is available without an untracked local path.
+- [x] Ensure the final checkpoint is available without an untracked local path.
 - [ ] Confirm model licensing is compatible with deployment.
-- [ ] Add health-check or startup verification behavior.
-- [ ] Verify cold-start time, memory limit, and upload limit.
+- [x] Add health-check or startup verification behavior.
+- [x] Verify cold-start time, memory limit, and upload limit.
 - [ ] Publish the application URL in `README.md`.
 - [x] Add screenshots or a short demo recording.
 

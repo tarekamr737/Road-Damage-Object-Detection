@@ -1,5 +1,10 @@
 # Road Damage Detection
 
+<img width="1920" height="1080" alt="Screenshot 2026-07-15 193047" src="https://github.com/user-attachments/assets/2ec858a0-202d-4e4d-abd6-9b3218cd9d89" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-07-15 193116" src="https://github.com/user-attachments/assets/66c97a2c-e608-41c6-b1cb-b9b7a64387b6" />
+
+
 Local training and evaluation workflow for the Roboflow road-damage dataset using the same notebook protocol that was prepared for Colab. The current production runtime is the locally trained YOLOv8s checkpoint; Roboflow-hosted YOLO11n and YOLO26s results are imported as comparison evidence.
 
 The original Colab notebooks are still included for reference. The local workflow lives in `configs/`, `scripts/`, and `src/road_damage/`.
